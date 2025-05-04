@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0 auto
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {  position: absolute;
+    top: 20px; /* jarak dari atas gambar */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    }
+
+.logo {
+    font-size: 1,5em;
+    color: #359381;
+    pointer-events: none;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ #text {
+    position: absolute;
+    font-size: 5em;
+    color: #f9f9f9;
+    text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+ }
+
+ .parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+ }
+
+ .sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom:  10px;
+}
+.sec img {
+    position: absolute;  /* bisa diganti fixed kalau mau selalu di kanan saat scroll */
+    top: 100px;          /* jarak dari atas halaman */
+    right: 0;            /* nempel di kanan */
+    width: 200px;        /* atur lebar foto */
+}
